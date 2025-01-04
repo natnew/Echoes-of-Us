@@ -2,7 +2,11 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="Echoes of Us", layout="wide")
+# Set the page title and layout
+st.set_page_config(
+    page_title="Echoes of Us",  # This sets the browser tab name
+    layout="wide"
+)
 
 st.sidebar.title("Echoes of Us")
 st.sidebar.write("Preserving diverse cultural heritage with AI.")
